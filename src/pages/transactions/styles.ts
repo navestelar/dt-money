@@ -34,6 +34,7 @@ export const TransactionsTable = styled.table`
  }
 
  export const PriceHighlight = styled.span<PriceHighlightProps>`
+  white-space: nowrap;
   color: ${props => props.variant === "income" ? props.theme['green-300'] : props.theme['red-300']};
   
  `
